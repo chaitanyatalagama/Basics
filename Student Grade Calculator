@@ -1,0 +1,24 @@
+#Student Grade Calculator in Python to calculate total, average, and grades
+
+name = input("Enter student name: ")
+maths = int(input("Marks obtained in Maths: "))
+eng = int(input("Marks obtained in English: "))
+hindi = int(input("Marks obtained in Hindi: "))
+total = maths+eng+hindi
+print ("Total marks obtained are " ,total)
+average = total/3
+print ("Total average is ",average)
+if (average >= 90):
+    print("Grade O - Outstanding")
+elif (average >= 80):
+    print("Grade A")
+elif (average >= 70):
+    print("Grade B")
+elif (average >= 60):
+    print("Grade C")
+elif (average >= 50):
+    print("Grade D")
+elif (average >= 35):
+    print("Grade E")
+else:
+    print("Grade F - Fail")
