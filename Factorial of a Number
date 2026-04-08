@@ -1,0 +1,8 @@
+#Factorial of a Number
+num = int(input("Enter a number: "))
+num2 = num
+fact = 1
+while num2 > 1:
+    fact = fact*num2
+    num2 = num2-1
+print(fact, "is the factorial of",num)
